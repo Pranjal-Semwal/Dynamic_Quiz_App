@@ -31,7 +31,7 @@ public class Question {
         if ("hard".equalsIgnoreCase(diff)) return 3;
         return 1;
     }
-
+    //Getter Methods
     public int getquesId(){
         return ques_id; 
     }
